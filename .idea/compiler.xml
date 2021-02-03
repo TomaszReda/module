@@ -8,13 +8,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="impl" />
         <module name="model" />
+        <module name="main" />
         <module name="service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="impl" target="15" />
+      <module name="main" target="15" />
       <module name="model" target="15" />
       <module name="service" target="15" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="main" options="-parameters" />
+    </option>
   </component>
 </project>
