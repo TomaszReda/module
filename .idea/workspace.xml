@@ -5,19 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cfb4032-0900-4999-9cad-870b30b470fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/pl/test/module/main/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/test/java/pl/test/module/main/MainApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/pl/test/module/main/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/src/main/java/pl/test/mainapp/MainappApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/test/java/pl/test/module/main/MainApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/src/test/java/pl/test/mainapp/MainappApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,14 +47,43 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="15" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MainApplication">
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.test.main.MainApplication" />
+      <module name="main" />
+      <option name="PROGRAM_PARAMETERS" value="--add-modules=ALL-SYSTEM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.test.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -64,13 +95,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="pl.test.module.main.MainApplication" />
+    <configuration name="MainappApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mainapp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pl.test.mainapp.MainappApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.MainApplication" />
+      <item itemvalue="Spring Boot.MainappApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,6 +121,8 @@
       <option name="presentableId" value="Default" />
       <updated>1612382196986</updated>
       <workItem from="1612382198141" duration="676000" />
+      <workItem from="1612807429018" duration="603000" />
+      <workItem from="1613412560483" duration="1624000" />
     </task>
     <servers />
   </component>

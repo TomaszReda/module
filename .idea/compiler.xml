@@ -6,15 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mainapp" />
         <module name="impl" />
         <module name="model" />
-        <module name="main" />
         <module name="service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="impl" target="15" />
       <module name="main" target="15" />
+      <module name="mainapp" target="15" />
       <module name="model" target="15" />
       <module name="service" target="15" />
     </bytecodeTargetLevel>
@@ -22,6 +23,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="main" options="-parameters" />
+      <module name="mainapp" options="-parameters" />
     </option>
   </component>
 </project>
