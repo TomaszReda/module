@@ -5,21 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cfb4032-0900-4999-9cad-870b30b470fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/pl/test/module/main/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/src/main/java/pl/test/mainapp/MainappApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/test/java/pl/test/module/main/MainApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/src/test/java/pl/test/mainapp/MainappApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/impl/impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/impl/impl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/impl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/impl/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/impl/target/classes/pl/test/module/impl/PersonServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/pl/test/module/service/PersonService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +67,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="15" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tutorials/core-java-modules/test-module" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -69,7 +81,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainApplication">
+  <component name="RunManager" selected="Spring Boot.MainappApplication">
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.test.main.MainApplication" />
       <module name="main" />
@@ -122,8 +134,17 @@
       <updated>1612382196986</updated>
       <workItem from="1612382198141" duration="676000" />
       <workItem from="1612807429018" duration="603000" />
-      <workItem from="1613412560483" duration="1624000" />
+      <workItem from="1613412560483" duration="4520000" />
+      <workItem from="1613420502031" duration="305000" />
     </task>
+    <task id="LOCAL-00001" summary="MAin app">
+      <created>1613415318414</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613415318414</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,5 +152,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="MAin app" />
+    <option name="LAST_COMMIT_MESSAGE" value="MAin app" />
   </component>
 </project>
